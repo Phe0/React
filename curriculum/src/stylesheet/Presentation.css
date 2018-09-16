@@ -1,5 +1,4 @@
 .Presentation {
-    width: 50em;
     text-align: center;
     margin: auto;
     height: 100vh;
@@ -18,4 +17,9 @@
 .seta {
     width: 5em;
     transform: rotate(90deg);
+}
+
+.resumo{
+    line-height: 1.5;
+    padding-bottom: 10vh;
 }
