@@ -1,0 +1,13 @@
+.Tag {
+    width: 30vh;
+    padding: 1vh;
+    text-align: center;
+    border-radius: 0.5vh;
+    background-color: blue;
+    margin: 1.5vh;
+}
+
+.TagName {
+    margin: 0;
+    color: white;
+}

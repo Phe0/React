@@ -1,0 +1,21 @@
+.Tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.TagsArea {
+    width: 70vh;
+    margin: auto;
+    margin-bottom: 10vh;
+    text-align: center;
+}
+
+.AreaName {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+#Interesses {
+    width: 30vh;
+}
