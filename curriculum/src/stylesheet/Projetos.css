@@ -1,0 +1,9 @@
+.ProjetosArea {
+    background-color: red;
+    height: 40vh;
+}
+
+.Projetos {
+    display: flex;
+    justify-content: space-around;
+}

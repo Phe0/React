@@ -1,0 +1,49 @@
+.Projeto {
+    display: flex;
+    flex-wrap: wrap;
+    height: 20vh;
+    width: 40vh;
+    align-items: center;
+}
+
+.setaNome {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30vh;
+    height: 3vh;
+}
+
+.nomeProjeto {
+    margin: 0;
+    padding-top: 0.65vh;
+}
+
+.cargoProjeto {
+    margin: 0;
+    padding-top: 0.65vh;
+}
+
+.resumoProjeto {
+    margin: 0;
+    margin-left: 2vh;
+    width: 30vh;
+}
+
+.statusProjeto {
+    margin: 0;
+    margin-left:2vh;
+    margin-top:1vh;
+}
+
+.repositorio {
+    width: 5vh;
+}
+
+.gitArea {
+    margin-left: 2vh;
+    height: 5vh;
+}
+
+.gitArea :hover {
+    transform: scale(1.1);
+}
