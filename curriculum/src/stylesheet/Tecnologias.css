@@ -1,3 +1,17 @@
 .TechArea {
     background-color: purple;
+    margin: 0;
+}
+
+.Tecnologias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.AreaName {
+    margin: 0;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-align: center;
 }

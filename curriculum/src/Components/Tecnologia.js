@@ -7,9 +7,9 @@ class Tecnologia extends Component {
     return (
       <div className="Tecnologia">
         <img className="logo" src={require(`../img/logos/${this.props.name}-white.png`)} />
-        <p className="TechName">
+        <h3 className="TechName">
           {this.props.name}
-        </p>
+        </h3>
       </div>
     );
   }
