@@ -1,3 +1,20 @@
 .Presentation {
-    width: 100em;
+    width: 50em;
+    text-align: center;
+    margin: auto;
+    height: 100vh;
+}
+
+.foto {
+    margin-top:15vh;
+    width: 25em;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2em;
+    border-color: #dddddd;
+}
+
+.seta {
+    width: 5em;
+    transform: rotate(90deg);
 }
