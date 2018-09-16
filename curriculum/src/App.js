@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './stylesheet/App.css';
 import Presentation from './Components/Presentation';
 import HabilidadesInteresses from './Components/HabilidadesInteresses';
+import Tecnologias from './Components/Tecnologias';
 
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
       <div className="App">
         <Presentation/>
         <HabilidadesInteresses/>
+        <Tecnologias/>
       </div>
     );
   }
