@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../stylesheet/Infos.css';
+import '../../stylesheet/Infos.css';
 
 
 class InfoEducacao extends Component {
@@ -7,7 +7,7 @@ class InfoEducacao extends Component {
     return (
       <div className="Info">
         <div className="setaPeriodo">
-            <img className="seta2" src={require('../img/seta2.svg')}></img>
+            <img className="seta2" src={require('../../img/seta2.svg')} alt="seta" ></img>
             <p className="periodoEducacao">{this.props.periodo}</p>
         </div>
         <div className="nomeLocal">

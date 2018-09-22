@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import InfoEducacao from './InfoEducacao';
-import '../stylesheet/Educacao.css';
+import '../../stylesheet/EducacaoExperiencias.css';
 
 
 class Educacao extends Component {

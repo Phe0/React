@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Habilidades from './Habilidades';
 import Interesses from './Interesses';
-import '../stylesheet/HabilidadesInteresses.css';
+import '../../stylesheet/HabilidadesInteresses.css';
 
 
 class HabilidadesInteresses extends Component {

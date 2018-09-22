@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Tag from './Tag';
-import '../stylesheet/TagsArea.css';
+import '../../stylesheet/TagsArea.css';
 
 
 class Interesses extends Component {

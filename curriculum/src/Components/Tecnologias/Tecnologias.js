@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Tecnologia from './Tecnologia';
-import '../stylesheet/Tecnologias.css';
+import '../../stylesheet/Tecnologias.css';
 
 
 class Tecnologias extends Component {

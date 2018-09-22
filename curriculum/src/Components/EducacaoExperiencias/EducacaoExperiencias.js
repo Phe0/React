@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Experiencias from './Experiencias';
 import Educacao from './Educacao';
-import '../stylesheet/EducacaoExperiencias.css';
+import '../../stylesheet/EducacaoExperiencias.css';
 
 
 class EducacaoExperiencias extends Component {

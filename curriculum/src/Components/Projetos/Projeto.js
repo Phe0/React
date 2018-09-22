@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../stylesheet/Projeto.css';
+import '../../stylesheet/Projeto.css';
 
 class Projeto extends Component {
 
@@ -8,7 +8,7 @@ class Projeto extends Component {
       <div className="Projeto">
         <div className="text">
           <div className="setaNome">
-              <img className="seta2" src={require('../img/seta2.svg')}></img>
+              <img className="seta2" src={require('../../img/seta2.svg')} alt="seta" ></img>
               <h4 className="nomeProjeto">{this.props.name} </h4>
               <p className="cargoProjeto"> -{this.props.cargo}</p>
           </div>
@@ -19,7 +19,7 @@ class Projeto extends Component {
         </div>
         <div className="gitArea">
           <a href={`https://github.com/${this.props.link}`} >
-            <img className="repositorio" src={require('../img/logos/github-logo.png')} ></img>
+            <img className="repositorio" src={require('../../img/logos/github-logo.png')} alt="github-logo" ></img>
           </a>
         </div>
       </div>
