@@ -11,7 +11,6 @@ class Presentation extends Component {
         <p className="resumo" >Estudante de Engenharia de Software<br></br>
         Brasileiro, Solteiro, 19 Anos
         </p>
-        <img className="seta" src={require('../../img/seta.svg')} alt="Seta"/>
       </div>
     );
   }

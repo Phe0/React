@@ -1,13 +1,14 @@
-.logo {
-    width: 8vh;
-    height: 10vh;
-    object-fit: contain;
-}
-
 .Tecnologia {
     text-align: center;
-    width: 10vh;
-    height: 17vh;
-    padding-bottom: 5vh;
+    width: inherit;
+    height: inherit;
+    padding-bottom: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
 }
 
+.logo {
+    width: 5em;;
+    height: 5em;
+    object-fit: contain;
+}

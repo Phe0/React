@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial|Varela+Round');
+
+h1, h2, h3, h4, h5, h6{
+    color: #cccccc;
+    font-family: 'Varela Round', sans-serif;
+}
+
+body {
+    color: #cccccc;
+    font-family: 'Questrial', sans-serif;
+} 
+
+h1,h2 {
+    color: #8156bc !important;
+}

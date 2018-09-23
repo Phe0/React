@@ -5,6 +5,7 @@ import HabilidadesInteresses from './Components/HabilidadesInteresses/Habilidade
 import Tecnologias from './Components/Tecnologias/Tecnologias';
 import EducacaoExperiencias from './Components/EducacaoExperiencias/EducacaoExperiencias';
 import Projetos from './Components/Projetos/Projetos';
+import Contato from './Components/Contato/Contato'
 
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
         <Tecnologias/>
         <EducacaoExperiencias/>
         <Projetos/>
+        <Contato/>
       </div>
     );
   }

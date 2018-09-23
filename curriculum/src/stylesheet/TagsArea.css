@@ -1,16 +1,16 @@
 .Tags {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-around;
 }
 
 .TagsArea {
-    width: 70vh;
+    width: 50em;
     margin: auto;
-    padding-bottom: 10vh;
+    padding-bottom: 8em;
     text-align: center;
 }
 
 #Interesses {
-    width: 30vh;
+    width: 30em;
 }

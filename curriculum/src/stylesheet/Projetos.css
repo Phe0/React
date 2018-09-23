@@ -1,9 +1,10 @@
 .ProjetosArea {
-    background-color: red;
-    height: 40vh;
+    background-color: #191919;
+    height: inherit;
 }
 
 .Projetos {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }

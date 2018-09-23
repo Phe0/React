@@ -1,47 +1,51 @@
 .Projeto {
     display: flex;
     flex-wrap: wrap;
-    height: 20vh;
-    width: 40vh;
+    height: inherit;
+    width: 25em;
     align-items: center;
+    max-width: 400px;
+    min-width: 180px;
+    margin-bottom: 3em;
 }
 
 .setaNome {
     display: flex;
     flex-wrap: wrap;
-    width: 30vh;
-    height: 3vh;
+    width: 18em;
+    height: 1.5em;
 }
 
 .nomeProjeto {
     margin: 0;
-    padding-top: 0.65vh;
+    padding-top: 0.2em;
 }
 
 .cargoProjeto {
     margin: 0;
-    padding-top: 0.65vh;
+    padding: 0.35em;
 }
 
 .resumoProjeto {
-    margin: 0;
-    margin-left: 2vh;
-    width: 30vh;
+    margin-left: 1em;;
+    width: inherit;
 }
 
 .statusProjeto {
     margin: 0;
-    margin-left:2vh;
-    margin-top:1vh;
+    margin-left:1em;
+    margin-top:1em;
 }
 
 .repositorio {
-    width: 5vh;
+    width: 2.5em;
 }
 
 .gitArea {
-    margin-left: 2vh;
-    height: 5vh;
+    margin-left: 1em;
+    margin: auto;
+    margin-top: 2em;
+    height: 2.5em;
 }
 
 .gitArea :hover {

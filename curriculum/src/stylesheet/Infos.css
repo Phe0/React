@@ -1,34 +1,41 @@
 .seta2 {
-    width: 2vh;
-    height: 3vh;
+    width: 1em;
+    height: 1.5em;
     transform: rotate(270deg);
 }
 
 .Info {
     display: flex;
-    width: 50vh;
+    width: inherit;
+    height: inherit;
     flex-wrap: wrap;
-    margin-bottom: 4vh;
+    margin: auto;
+    padding-bottom: 3em;
 }
 
 .setaPeriodo {
     display: flex;
     flex-wrap: wrap;
-    width: 20vh;
-    height: 3vh;
+    width: 12em;
+    height: 1.6em;
+    margin-left: 2em;
 }
 
 .periodoEducacao {
-    height: 3vh;
     margin: 0;
-    padding-top: 0.65vh;
+    padding-top: 0.25em;
 }
 
 .nomeEducacao {
     margin: 0;
-    padding-top: 0.65vh;
+    padding-top: 0.25em;
 }
 
 .localEducacao {
     margin: 0;
+}
+
+.nomeLocal {
+    width: 17em;
+    margin-left: 3em;
 }

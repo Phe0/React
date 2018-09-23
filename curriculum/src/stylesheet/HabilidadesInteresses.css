@@ -1,5 +1,5 @@
 .HabilidadesInteresses {
     display: flex;
-    align-content: center;
-    background-color: aqua;
+    flex-wrap: wrap;
+    background-color: #353535;
 }
