@@ -24,7 +24,7 @@
 .resumo{
     line-height: 1.5;
     margin: 0;
-    padding-bottom: 12%;
+    padding-bottom: 5%;
 }
 
 .nome {
@@ -33,4 +33,39 @@
     padding-top: 2em;
     max-width: 360px;
     min-width: 200px;
+}
+
+
+.wrapper {
+    margin: auto;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    border: 1px solid #cccccc;
+    animation: animate 2s linear infinite;
+}
+
+.seta-pulse {
+    width: 2em;
+    margin-top: 40%;
+}
+
+
+@keyframes animate {
+    0% {
+        box-shadow: 0 0 0 0 rgba(204, 204, 204, .7), 0 0 0 0 rgba(204, 204, 204, .7);
+    }
+    40% {
+        box-shadow: 0 0 0 10px rgba(204, 204, 204, 0), 0 0 0 0 rgba(204, 204, 204, .7);
+    }
+    80% {
+        box-shadow: 0 0 0 10px rgba(204, 204, 204, 0), 0 0 0 0 rgba(204, 204, 204, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(204, 204, 204, 0), 0 0 0 0 rgba(204, 204, 204, 0);
+    }
+}
+
+.area {
+    padding-bottom: 3%;
 }

@@ -7,7 +7,7 @@ import '../../stylesheet/HabilidadesInteresses.css';
 class HabilidadesInteresses extends Component {
   render() {
     return (
-      <div className="HabilidadesInteresses">
+      <div className="HabilidadesInteresses" id="habilidades-interesses">
         <Habilidades/>
         <Interesses/>
       </div>
