@@ -2,7 +2,6 @@
   "name": "curriculum",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://phe0.github.io",
   "dependencies": {
     "gh-pages": "^2.0.0",
     "react": "^16.5.1",
@@ -10,8 +9,6 @@
     "react-scripts": "1.1.5"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
