@@ -8,10 +8,12 @@
     "react-dom": "^16.5.1",
     "react-scripts": "1.1.5"
   },
+  "homepage": "https://phe0.github.io/React",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && gh-pages -d build"
   }
 }
