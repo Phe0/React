@@ -26,7 +26,7 @@ const Contato = () => {
                 <a href={`https://github.com/Phe0`} >
                     <img className="contato-icon icon-hover" src={require('../../img/logos/github-logo.png')} alt="github-logo" ></img>
                 </a>
-                <a href={`https://linkedin.com`} >
+                <a href={`https://linkedin.com/in/pedrofeo`} >
                     <img className="contato-icon icon-hover" src={require('../../img/logos/linkedin-white.png')} alt="github-logo" ></img>
                 </a>
             </div>

@@ -13,7 +13,7 @@ class Educacao extends Component {
             periodo: '2014-2016'
         },
         {
-            nome: 'Curso de Inglês' ,
+            nome: 'Curso de Inglês Avançado',
             local: 'Casa Thomas Jefferson',
             periodo: '2014-2016'
         },        {
