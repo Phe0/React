@@ -8,6 +8,11 @@ class Educacao extends Component {
   render() {
     var infos = [
         {
+            nome: 'Engenharia de Software' ,
+            local: 'Universidade de Brasília',
+            periodo: '2017-Atualmente'
+        },
+        {
             nome: 'Ensino Médio' ,
             local: 'Colégio CIMAN',
             periodo: '2014-2016'
@@ -16,12 +21,7 @@ class Educacao extends Component {
             nome: 'Curso de Inglês Avançado',
             local: 'Casa Thomas Jefferson',
             periodo: '2014-2016'
-        },        {
-            nome: 'Engenharia de Software' ,
-            local: 'Universidade de Brasília',
-            periodo: '2017-Atualmente'
         }
-
       ];
 
       return(

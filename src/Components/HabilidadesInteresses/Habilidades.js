@@ -8,7 +8,7 @@ class Habilidades extends Component {
   render() {
     var habilidades = [
         {
-            title: 'SCRUM'
+            title: 'Metodologias Ágeis'
         },
         {
             title: 'Gamificação'
@@ -20,7 +20,7 @@ class Habilidades extends Component {
             title: 'Prototipagem'
         },
         {
-            title: 'Design'
+            title: 'UI/UX'
         },
         {
             title: 'Adobe XD'
