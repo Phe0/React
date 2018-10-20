@@ -2,7 +2,7 @@ import React from 'react';
 import '../../stylesheet/Infos.css';
 
 
-const InfoEducacao = (props) => {
+const Info = (props) => {
 
   return (
     <div className="Info">
@@ -19,4 +19,4 @@ const InfoEducacao = (props) => {
   
 }
 
-export default InfoEducacao;
+export default Info;
