@@ -2,8 +2,6 @@ import React from 'react'
 import '../../stylesheet/Contato.css'
 import whatsapp from '../../img/logos/whatsapp-white.png'
 import telegram from '../../img/logos/telegram-white.png'
-//import github from '../../img/logos/github-logo.png'
-//import linkedin from '../../img/logos/linkedin-white.png'
 import carta from '../../img/logos/carta-white.png'
 
 const Contato = () => {

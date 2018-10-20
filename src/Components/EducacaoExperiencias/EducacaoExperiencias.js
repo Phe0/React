@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Experiencias from './Experiencias';
 import Educacao from './Educacao';
 import '../../stylesheet/EducacaoExperiencias.css';
 
 
-class EducacaoExperiencias extends Component {
-  render() {
+const EducacaoExperiencias = () => {
     return (
       <div className="EducacaoExperiencias">
         <Educacao/>
@@ -13,6 +12,5 @@ class EducacaoExperiencias extends Component {
       </div>
     );
   }
-}
 
 export default EducacaoExperiencias;
