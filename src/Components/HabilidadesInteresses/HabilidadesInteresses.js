@@ -1,14 +1,14 @@
 import React from 'react';
-import Habilidades from './Habilidades';
-import Interesses from './Interesses';
+import ButtonLike from './ButtonLike'
+import interesses from '../../json/Interesses.json'
+import habilidades from '../../json/Habilidades.json'
 import '../../stylesheet/HabilidadesInteresses.css';
-
 
 const HabilidadesInteresses = () => {
   return (
     <div className="HabilidadesInteresses" id="habilidades-interesses">
-      <Habilidades/>
-      <Interesses/>
+      <ButtonLike id={'Habilidades'} info={habilidades}/>
+      <ButtonLike id={'Interesses'} info={interesses}/>
     </div>
   );
 }

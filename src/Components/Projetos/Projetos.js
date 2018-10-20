@@ -1,30 +1,7 @@
 import React from 'react';
 import Projeto from './Projeto';
 import '../../stylesheet/Projetos.css';
-
-var projetos = [
-    {
-        name: 'Nuntium',
-        cargo: 'Desenvolvedor',
-        resumo: 'Site para compartilhamento de textos, desenvolvido para a matéria de Orientação à Objetos da Universidade de Brasília',
-        status: 'Terminado',
-        link: 'Phe0/Nuntium'
-    },
-    {
-        name: 'Kalkuli',
-        cargo: 'Desenvolvedor',
-        resumo: 'Site para gestão financeira a partir de imagens de DANFEs, desenvolvida para a matéria Métodos de Desenvolvimento de Software da Univeridade de Brasília',
-        status: 'Em desenvolvimento',
-        link: 'fga-eps-mds/2018.2-Kalkuli'
-    },
-    {
-        name: 'Currículo Online',
-        cargo: 'Desenvolvedor',
-        resumo: 'Site destinado para o compartilhamento do meu currículo pessoal(este mesmo)',
-        status: 'Terminado',
-        link: 'Phe0/React'
-    }
-  ];
+import projetos from '../../json/Projetos.json'
 
 const Projetos = () => {
     
