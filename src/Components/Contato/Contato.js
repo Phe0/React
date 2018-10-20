@@ -3,23 +3,15 @@ import '../../stylesheet/Contato.css'
 import whatsapp from '../../img/logos/whatsapp-white.png'
 import telegram from '../../img/logos/telegram-white.png'
 import carta from '../../img/logos/carta-white.png'
+import LinhaContato from './LinhaContato'
 
 const Contato = () => {
     return(
         <div className="contato-area">
             <h1 className="title" >Entre em contato</h1>
-            <div className="linha">
-                <img className="contato-icon" src={whatsapp} alt="whatsapp-icon"/>
-                <h4 className="contato-text" >+55(61)98294-7102</h4>
-            </div>
-            <div className="linha">
-                <img className="contato-icon" src={telegram} alt="telegram-icon"/>
-                <h4 className="contato-text" >@Feozineo</h4>
-            </div>
-            <div className="linha">
-                <img className="contato-icon" src={carta} alt="envelope-icon"/>
-                <h4 className="contato-text" >pheofo@gmail.com</h4>
-            </div>
+            <LinhaContato image={whatsapp} text={'+55(61)98294-7102'} />
+            <LinhaContato image={telegram} text={'@Feozineo'} />
+            <LinhaContato image={carta} text={'pheofo@gmail.com'} />
             <div className="github-linkedin">
                 <a href={`https://github.com/Phe0`} >
                     <img className="contato-icon icon-hover" src={require('../../img/logos/github-logo.png')} alt="github-logo" ></img>
