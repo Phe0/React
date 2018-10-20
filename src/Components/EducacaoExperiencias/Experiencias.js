@@ -2,6 +2,7 @@ import React from 'react';
 import InfoExperiencias from './InfoExperiencias';
 import '../../stylesheet/Educacao.css';
 
+
 var infos = [
     {
         cargo: 'Diretor de Operações' ,
@@ -19,7 +20,6 @@ var infos = [
         periodo: '2017'
     }
   ];
-
 const Experiencias = () => {
 
     return(

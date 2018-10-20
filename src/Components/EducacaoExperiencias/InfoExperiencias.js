@@ -2,16 +2,16 @@ import React from 'react';
 import '../../stylesheet/Infos.css';
 
 
-const InfoExperiencias = () => {
+const InfoExperiencias = (props) => {
     return (
         <div className="Info">
             <div className="setaPeriodo">
                 <img className="seta2" src={require('../../img/seta2.svg')} alt="seta" ></img>
-                <p className="periodoEducacao">{this.props.periodo}</p>
+                <p className="periodoEducacao">{props.periodo}</p>
             </div>
             <div className="nomeLocal">
-                <h4 className="nomeEducacao">{this.props.cargo}</h4>
-                <p className="localEducacao">{this.props.local}</p>
+                <h4 className="nomeEducacao">{props.cargo}</h4>
+                <p className="localEducacao">{props.local}</p>
             </div>
         </div>
     );
