@@ -1,12 +1,19 @@
 .Presentation {
     text-align: center;
     margin: auto;
-    height: inherit;
+    height: 95vh;
     background-color: #191919;
+    position: relative;
+    z-index: -1;
+}
+
+.Presentation__content {
+    position: fixed;
+    width: 100%;
 }
 
 .foto {
-    margin-top:15vh;
+    margin-top:20vh;
     width: 20%;
     max-width: 445px;
     min-width: 200px;
@@ -14,17 +21,16 @@
     border-style: solid;
     border-width: 2em;
     border-color: #353535;
-}
-
-.seta {
-    width: 5%;
-    transform: rotate(90deg);
+    animation-name: grow;
+    animation-duration: 0.6s;
 }
 
 .resumo{
     line-height: 1.5;
     margin: 0;
     padding-bottom: 5%;
+    animation-name: up;
+    animation-duration: 0.6s;
 }
 
 .nome {
@@ -33,39 +39,33 @@
     padding-top: 2em;
     max-width: 360px;
     min-width: 200px;
+    animation-name: up;
+    animation-duration: 0.6s;
 }
 
-
-.wrapper {
-    margin: auto;
-    width: 3em;
-    height: 3em;
-    border-radius: 50%;
-    border: 1px solid #cccccc;
-    animation: animate 2s linear infinite;
-}
-
-.seta-pulse {
-    width: 2em;
-    margin-top: 40%;
-}
-
-
-@keyframes animate {
+@keyframes grow {
     0% {
-        box-shadow: 0 0 0 0 rgba(204, 204, 204, .7), 0 0 0 0 rgba(204, 204, 204, .7);
-    }
-    40% {
-        box-shadow: 0 0 0 10px rgba(204, 204, 204, 0), 0 0 0 0 rgba(204, 204, 204, .7);
-    }
-    80% {
-        box-shadow: 0 0 0 10px rgba(204, 204, 204, 0), 0 0 0 0 rgba(204, 204, 204, 0);
+        width: 0%; 
+        min-width: 0;
+        margin-top: 40vh;
+        transform: rotate(270deg);
     }
     100% {
-        box-shadow: 0 0 0 0 rgba(204, 204, 204, 0), 0 0 0 0 rgba(204, 204, 204, 0);
+        width: 20%;
+        min-width: 200px;
+        margin-top: 20vh;
+        transform: rotate(360deg);
     }
 }
 
-.area {
-    padding-bottom: 3%;
+@keyframes up {
+    0% {
+        margin-top: 50vh;
+    }
+    30% {
+        margin-top: 50vh;
+    }
+    100% {
+        margin-top: 0vh;
+    }
 }
