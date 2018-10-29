@@ -1,20 +1,60 @@
-import React from 'react';
+import React,{Component} from 'react';
 import '../../stylesheet/Presentation.css';
-import seta from '../../img/arrow-white.svg'
+import MePink from '../../img/MePink.svg'
+import MePurpleish from '../../img/MePurpleish.svg'
+import MePurple from '../../img/MePurple.svg'
 
+var image = [MePink, MePurpleish, MePurple]
 
-const Presentation = () => {
-  return (
-    <div className="Presentation">
-      <div className="Presentation__content">
-        <img className="foto" src={require('../../img/Pedro.jpg')} alt="Foto Pedro" />
-        <h2 className="nome" >Pedro Henrique Andrade Féo</h2>
-        <p className="resumo" >Estudante de Engenharia de Software<br></br>
-        Brasileiro, Solteiro, 19 Anos
-        </p>
+class Presentation extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      counter: 0,
+      isGoing: true
+    };
+  }
+
+  componentDidMount() {
+    this.timerID = setInterval(
+      () => this.tick(),
+      800
+    );
+  }
+
+  tick() {
+    if(this.state.counter === 2){
+      this.setState({
+        isGoing: false
+      })
+    }
+    else if(this.state.counter === 0){
+      this.setState({
+        isGoing: true
+      })
+    }
+    if(this.state.isGoing){
+      this.setState({counter: this.state.counter+1})
+    }
+    else{
+      this.setState({counter: this.state.counter-1}) 
+    }
+  }
+
+  render(){
+    return (
+      <div className="Presentation">
+      <div>
+        <h1>Pedro</h1>
+        <h1>Féo</h1>
+      </div>
+      <div className="Presentation__image">
+        <img src={image[this.state.counter]}></img>
       </div>
     </div>
-  );
+    );
+  }
 }
 
 export default Presentation;
