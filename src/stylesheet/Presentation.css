@@ -1,71 +1,149 @@
 .Presentation {
-    text-align: center;
-    margin: auto;
     height: 95vh;
     background-color: #191919;
-    position: relative;
-    z-index: -1;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
 }
 
-.Presentation__content {
-    position: fixed;
-    width: 100%;
+.Presentation__name-area {
+    margin-top: 20vh;
 }
 
-.foto {
-    margin-top:20vh;
-    width: 20%;
-    max-width: 445px;
-    min-width: 200px;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 2em;
-    border-color: #353535;
-    animation-name: grow;
-    animation-duration: 0.6s;
+.Presentation__name-area__svg {
+    margin-bottom: -19em;
+    z-index: -1; 
+    padding-left: 3%;
+    width: 530px;
+    height: 20px;
 }
 
-.resumo{
-    line-height: 1.5;
+.Presentation__name-area__svg__rectangle {
+    width: 800px;
+    height: 20px;
+    z-index: -1; 
+}
+
+.Presentation__name-area__names {
+    width: 543px;
+}
+
+.Presentation__name-area__names__name {
+    font-size: 12em;
     margin: 0;
-    padding-bottom: 5%;
-    animation-name: up;
-    animation-duration: 0.6s;
+    color: #cccccc !important;
+    font-weight: 200;
+    text-align: right;
+    line-height: 1em;
 }
 
-.nome {
-    width: inherit;
-    margin: auto;
-    padding-top: 2em;
-    max-width: 360px;
-    min-width: 200px;
-    animation-name: up;
-    animation-duration: 0.6s;
+.Presentation__name-area__names__description {
+    margin: 0;
+    height: 1em;
+    font-size: 3em;
 }
 
-@keyframes grow {
-    0% {
-        width: 0%; 
-        min-width: 0;
-        margin-top: 40vh;
-        transform: rotate(270deg);
+.Presentation__image {
+    margin-top: 18vh;
+    width: 400px;
+    height: 518px;
+}
+
+@media (max-width:1087px) {
+    .Presentation {
+        height: 100%;
+    } 
+
+    .Presentation__name-area {
+        margin: auto;
+        margin-top: 4em;
+        margin-bottom: 3em;
     }
-    100% {
-        width: 20%;
-        min-width: 200px;
-        margin-top: 20vh;
-        transform: rotate(360deg);
+
+    .Presentation__image {
+        padding-bottom: 10%;
+        padding-top: 5em;
+        margin: auto;
     }
 }
 
-@keyframes up {
-    0% {
-        margin-top: 50vh;
+@media (max-width: 580px) {
+
+    .Presentation {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
-    30% {
-        margin-top: 50vh;
+
+    .Presentation__name-area__names {
+        width: 380px;
+        margin: auto;
     }
-    100% {
-        margin-top: 0vh;
+    
+    .Presentation__name-area__names__name {
+        font-size: 8em;
+        margin: 0;
+        color: #cccccc !important;
+        font-weight: 200;
+        text-align: right;
+        line-height: 1em;
+    }
+    
+    .Presentation__name-area__names__description {
+        margin: 0;
+        height: 1em;
+        font-size: 2em;
+        text-align: right;
+    }
+
+    .Presentation__name-area__svg {
+        margin-bottom: -13em;
+        z-index: -1; 
+        padding-left: 11%;
+        width: 360px;
+        height: 20px;
+    }
+
+    .Presentation__name-area__svg__rectangle {
+        width: 360px;
+        height: 15px;
+        z-index: -1; 
+    }
+
+    .Presentation__image {
+        margin: auto;
+        transform: scale(0.8);
+        margin-top: 0;
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .Presentation__name-area__names {
+        width: 543px;
+    }
+    
+    .Presentation__name-area__names__name {
+        font-size: 8em;
+        margin: 0;
+        color: #cccccc !important;
+        font-weight: 200;
+        text-align: right;
+        line-height: 1em;
+    }
+    
+    .Presentation__name-area__names__description {
+        margin: 0;
+        height: 1em;
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 1088px) {
+    .Presentation {
+        padding-left: 3%;
+        padding-right: 10%;
     }
 }

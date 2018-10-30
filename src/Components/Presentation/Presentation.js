@@ -45,14 +45,28 @@ class Presentation extends Component {
   render(){
     return (
       <div className="Presentation">
-      <div>
-        <h1>Pedro</h1>
-        <h1>Féo</h1>
+        <div className="Presentation__name-area">
+          <svg className="Presentation__name-area__svg">
+            <linearGradient id="gradient">
+              <stop offset="0%" stop-color="#8156bc" />
+              <stop offset="100%" stop-color="#e06b6b" />
+            </linearGradient>
+
+            <rect fill="url(#gradient)" className="Presentation__name-area__svg__rectangle" /> 
+          </svg>
+
+          <div className="Presentation__name-area__names">
+            <h1 className="Presentation__name-area__names__name">Pedro <br/> Féo</h1>
+            <p className="Presentation__name-area__names__description">Engenharia de Software</p>
+          </div>
+          
+          
+        </div>
+
+        <div className="Presentation__image">
+          <img src={image[this.state.counter]}></img>
+        </div>
       </div>
-      <div className="Presentation__image">
-        <img src={image[this.state.counter]}></img>
-      </div>
-    </div>
     );
   }
 }
