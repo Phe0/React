@@ -84,7 +84,6 @@
     .Presentation__name-area__names__name {
         font-size: 8em;
         margin: 0;
-        color: #cccccc !important;
         font-weight: 200;
         text-align: right;
         line-height: 1em;
@@ -121,14 +120,19 @@
 
 @media (max-width: 480px) {
 
+    .Presentation {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
     .Presentation__name-area__names {
-        width: 543px;
+        width: 230px;
+        margin: auto;
     }
     
     .Presentation__name-area__names__name {
-        font-size: 8em;
+        font-size: 5em;
         margin: 0;
-        color: #cccccc !important;
         font-weight: 200;
         text-align: right;
         line-height: 1em;
@@ -137,7 +141,29 @@
     .Presentation__name-area__names__description {
         margin: 0;
         height: 1em;
-        font-size: 3em;
+        font-size: 1em;
+        text-align: right;
+    }
+
+    .Presentation__name-area__svg {
+        margin-bottom: -8em;
+        z-index: -1; 
+        padding-left: 4%;
+        width: 225px;
+        height: 10px;
+    }
+
+    .Presentation__name-area__svg__rectangle {
+        width: 225px;
+        height: 15px;
+        z-index: -1; 
+    }
+
+    .Presentation__image {
+        margin: auto;
+        transform: scale(0.5);
+        margin-top: 0;
+        padding-top: 0;
     }
 }
 
