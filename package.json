@@ -6,7 +6,8 @@
     "gh-pages": "^2.0.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
-    "react-scripts": "1.1.5"
+    "react-scripts": "1.1.5",
+    "react-typing-animation": "^1.4.0"
   },
   "homepage": "https://phe0.github.io/React",
   "scripts": {

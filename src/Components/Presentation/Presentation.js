@@ -3,8 +3,11 @@ import '../../stylesheet/Presentation.css';
 import MePink from '../../img/MePink.svg'
 import MePurpleish from '../../img/MePurpleish.svg'
 import MePurple from '../../img/MePurple.svg'
+import Typing from 'react-typing-animation'
 
-var image = [MePink, MePurpleish, MePurple]
+const image = [MePink, MePurpleish, MePurple]
+const firstName = "Pedro"
+const lastName = "Féo"
 
 class Presentation extends Component {
 
@@ -12,18 +15,18 @@ class Presentation extends Component {
     super(props);
     this.state = {
       counter: 0,
-      isGoing: true
+      isGoing: true,
     };
   }
 
   componentDidMount() {
-    this.timerID = setInterval(
-      () => this.tick(),
-      800
-    );
+    setTimeout(() => {
+      this.timerID = setInterval(() => this.changeImage(), 800)
+    }, 4000)
   }
 
-  tick() {
+
+  changeImage = () => {
     if(this.state.counter === 2){
       this.setState({
         isGoing: false
@@ -56,8 +59,15 @@ class Presentation extends Component {
           </svg>
 
           <div className="Presentation__name-area__names">
-            <h1 className="Presentation__name-area__names__name">Pedro <br/> Féo</h1>
-            <p className="Presentation__name-area__names__description">Engenharia de Software</p>
+            <Typing speed={200} hideCursor={true} >
+              <h1 className="Presentation__name-area__names__name--first">Pedro</h1>
+            </Typing>
+            <Typing speed={200} hideCursor={true} startDelay={1000}>
+              <h1 className="Presentation__name-area__names__name--last">Féo</h1>
+            </Typing>
+            <Typing speed={90} hideCursor={true} startDelay={1600}>
+              <p className="Presentation__name-area__names__description">Engenharia de Software</p>
+            </Typing>
           </div>
           
           
@@ -69,6 +79,7 @@ class Presentation extends Component {
       </div>
     );
   }
+
 }
 
 export default Presentation;
