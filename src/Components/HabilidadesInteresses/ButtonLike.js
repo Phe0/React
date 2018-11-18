@@ -6,7 +6,7 @@ const ButtonLike = (props) => {
     
     return(
         <div className="TagsArea" id={props.id}>
-            <h1 className="AreaName">{props.id}</h1>
+            <h2 className="AreaName">{props.id}</h2>
             <div className="Tags">
                 {props.info.map((i) => {
                     return(

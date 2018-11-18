@@ -49,7 +49,7 @@ class Presentation extends Component {
           <svg className="Presentation__name-area__svg">
             <linearGradient id="gradient">
               <stop offset="0%" stop-color="#8156bc" />
-              <stop offset="100%" stop-color="#e06b6b" />
+              <stop offset="50%" stop-color="#e06b6b" />
             </linearGradient>
 
             <rect fill="url(#gradient)" className="Presentation__name-area__svg__rectangle" /> 

@@ -10,6 +10,13 @@ body {
     font-family: 'Questrial', sans-serif;
 } 
 
-h1,h2 {
+h1 {
     color: #8156bc !important;
+}
+
+h2 {
+    font-size: 2em;
+    background: linear-gradient(to right, #8156bc 0%, #e06b6b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

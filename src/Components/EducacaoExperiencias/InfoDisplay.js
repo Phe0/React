@@ -6,7 +6,7 @@ const InfoDisplay = (props) => {
 
     return(
         <div className="InfoArea">
-            <h1 className="AreaName" id="NamesExperiencias" >{props.nome}</h1>
+            <h2 className="AreaName" id="NamesExperiencias" >{props.nome}</h2>
             <div className="Experiencias">
                 {props.infos.map((i) => {
                     return(

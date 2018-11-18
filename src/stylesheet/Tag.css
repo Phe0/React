@@ -7,10 +7,10 @@
     margin-top: 1em;
     margin-left: 0.5em;
     margin-right: 0.5em;
-    border-left: #8156bc solid;
+    border-left: #e06b6b solid;
     display: block;
 
-    background: linear-gradient(to right, #8156bc 50%, #191919 50%);
+    background: linear-gradient(to right, #8156bc 0%,#e06b6b 50%, #191919 50%);
     background-size: 200% 100%;
     background-position: right bottom;
     transition: all .5s ease-out;
@@ -18,6 +18,7 @@
 
 .Tag:hover {
     background-position: left bottom;
+    border-left: #8156bc solid;
 }
 
 .TagName {
