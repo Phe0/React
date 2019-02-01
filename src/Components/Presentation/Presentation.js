@@ -59,15 +59,9 @@ class Presentation extends Component {
           </svg>
 
           <div className="Presentation__name-area__names">
-            <Typing speed={200} hideCursor={true} >
               <h1 className="Presentation__name-area__names__name--first">Pedro</h1>
-            </Typing>
-            <Typing speed={200} hideCursor={true} startDelay={1000}>
               <h1 className="Presentation__name-area__names__name--last">Féo</h1>
-            </Typing>
-            <Typing speed={90} hideCursor={true} startDelay={1600}>
               <p className="Presentation__name-area__names__description">Engenharia de Software</p>
-            </Typing>
           </div>
           
           
