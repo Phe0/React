@@ -7,7 +7,7 @@ const Projetos = () => {
     
     return(
         <div className="ProjetosArea">
-            <h1 className="AreaName">Projetos</h1>
+            <h2 className="AreaName">Projetos</h2>
             <div className="Projetos">
                 {projetos.map((i) => {
                     return(

@@ -7,7 +7,7 @@ const Tecnologias = () => {
     
         return(
             <div className="TechArea">
-            <h1 className="AreaName">Tecnologias</h1>
+            <h2 className="AreaName">Tecnologias</h2>
             <div className="Tecnologias">
                 {tecnologias.map((i) => {
                     return(

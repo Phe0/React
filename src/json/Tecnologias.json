@@ -8,7 +8,6 @@
     {
         "name": "Ruby on Rails"
     },
-
     {
         "name": "Git"
     },
@@ -29,5 +28,11 @@
     },
     {
         "name": "React"
+    },
+    {
+        "name": "Python"
+    },
+    {
+        "name": "Flask"
     }
 ]

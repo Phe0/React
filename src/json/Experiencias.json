@@ -1,5 +1,10 @@
 [
     {
+        "nome": "Desenvolvedor" ,
+        "local": "CESAR Summer Job",
+        "periodo": "2019"
+    },
+    {
         "nome": "Diretor de Operações" ,
         "local": "Orc'estra Gamificação",
         "periodo": "2018"
@@ -7,7 +12,7 @@
     {
         "nome": "Desenvolvedor" ,
         "local": "Universidade de Brasília",
-        "periodo": "2014-Atualmente"
+        "periodo": "2017-Atualmente"
     },
     {
         "nome": "Assessor de Gestão de Pessoas" ,
