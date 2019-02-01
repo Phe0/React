@@ -1,5 +1,11 @@
 [
     {
+        "title": "Desenvolvimento Web"
+    },    
+    {
+        "title": "Desenvolvimento Mobile"
+    },
+    {
         "title": "Empreendedorismo"
     },
     {
@@ -7,9 +13,6 @@
     },
     {
         "title": "UI/UX Design"
-    },
-    {
-        "title": "Desenvolvimento Web"
     },
     {
         "title": "Front-end"
