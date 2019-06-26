@@ -3,28 +3,35 @@
         "name": "Nuntium",
         "cargo": "Desenvolvedor",
         "resumo": "Site para compartilhamento de textos, desenvolvido para a matéria de Orientação à Objetos da Universidade de Brasília",
-        "status": "Terminado",
+        "status": " Terminado",
         "link": "Phe0/Nuntium"
     },
     {
         "name": "Kalkuli",
         "cargo": "Desenvolvedor",
         "resumo": "Site para gestão financeira a partir de imagens de DANFEs, desenvolvida para a matéria Métodos de Desenvolvimento de Software da Univeridade de Brasília",
-        "status": "Terminado",
+        "status": " Terminado",
         "link": "fga-eps-mds/2018.2-Kalkuli"
     },
     {
         "name": "Currículo Online",
         "cargo": "Desenvolvedor",
         "resumo": "Site destinado para o compartilhamento do meu currículo pessoal(este mesmo)",
-        "status": "Terminado",
+        "status": " Terminado",
         "link": "Phe0/React"
     },
     {
         "name": "LEAF",
-        "cargo": "Desenvolvedor",
-        "resumo": "Projeto originado do programa CESAR Summer Job, em parseria com o ISI-TICS, com o objetivo de acelerar o processo de prototipação de dispositivos IoT",
-        "status": "Em desenvolvimento",
+        "cargo": "Gerente e Desenvolvedor",
+        "resumo": "Projeto originado do programa CESAR Summer Job, em parceria com o ISI-TICS, com o objetivo de acelerar o processo de prototipação de dispositivos IoT",
+        "status": " Terminado",
         "link": "summer-job-2019-1-isi/LEAF"
+    },
+    {
+        "name": "Requisitos-Habitica",
+        "cargo": "Desenvolvedor",
+        "resumo": "Projeto destinado à matéria Requisitos de Software da Universidade de Brasília, tem como objetivo passar pelos processos de Pré-Rastreablidade, Elicitação, Modelagem, Análise e Pós-Rastreabilidade para que sejam levantados os Requisitos funcionais e não funcionais do aplicativo Habitica",
+        "status": " Terminado",
+        "link": "requisitos-habitica/Habitica"
     }
 ]
