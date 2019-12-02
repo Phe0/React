@@ -1,7 +1,5 @@
 import React from 'react'
 import '../../stylesheet/Contato.css'
-import whatsapp from '../../img/logos/whatsapp-white.png'
-import telegram from '../../img/logos/telegram-white.png'
 import carta from '../../img/logos/carta-white.png'
 import LinhaContato from './LinhaContato'
 

@@ -31,5 +31,11 @@
     },
     {
         "name": "Flask"
+    },
+    {
+        "name": "Vue"
+    },
+    {
+        "name": "Angular"
     }
 ]

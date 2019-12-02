@@ -33,5 +33,12 @@
         "resumo": "Projeto destinado à matéria Requisitos de Software da Universidade de Brasília, tem como objetivo passar pelos processos de Pré-Rastreablidade, Elicitação, Modelagem, Análise e Pós-Rastreabilidade para que sejam levantados os Requisitos funcionais e não funcionais do aplicativo Habitica",
         "status": " Terminado",
         "link": "requisitos-habitica/Habitica"
+    },
+    {
+        "name": "QR Comer",
+        "cargo": "Desenvolvedor",
+        "resumo": "Projeto com intuito de diminuir filas em praças de alimentação, através de um ambiente web acessível via QR code",
+        "status": " Terminado",
+        "link": "fga-desenho-2019-2"
     }
 ]

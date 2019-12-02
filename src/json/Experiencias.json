@@ -1,8 +1,13 @@
 [
     {
+        "nome": "Desenvolvedor" ,
+        "local": "React-it Solutions",
+        "periodo": "2019-Atualmente"
+    },
+    {
         "nome": "Assessor de Marketing" ,
         "local": "Orc'estra Gamificação",
-        "periodo": "2019-Atualmente"
+        "periodo": "2019"
     },
     {
         "nome": "Desenvolvedor" ,

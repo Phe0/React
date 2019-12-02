@@ -3,11 +3,8 @@ import '../../stylesheet/Presentation.css';
 import MePink from '../../img/MePink.svg'
 import MePurpleish from '../../img/MePurpleish.svg'
 import MePurple from '../../img/MePurple.svg'
-import Typing from 'react-typing-animation'
 
 const image = [MePink, MePurpleish, MePurple]
-const firstName = "Pedro"
-const lastName = "Féo"
 
 class Presentation extends Component {
 
@@ -68,7 +65,7 @@ class Presentation extends Component {
         </div>
 
         <div className="Presentation__image">
-          <img src={image[this.state.counter]}></img>
+          <img src={image[this.state.counter]} alt="me" ></img>
         </div>
       </div>
     );

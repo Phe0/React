@@ -6,7 +6,6 @@ import Tecnologias from './Components/Tecnologias/Tecnologias';
 import EducacaoExperiencias from './Components/EducacaoExperiencias/EducacaoExperiencias';
 import Projetos from './Components/Projetos/Projetos';
 import Contato from './Components/Contato/Contato'
-import Navbar from './Components/Navbar/Navbar'
 
 
 class App extends Component {
