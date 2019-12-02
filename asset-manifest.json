@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React/static/css/main.b2150480.chunk.css",
-    "main.js": "/React/static/js/main.727f36b5.chunk.js",
-    "main.js.map": "/React/static/js/main.727f36b5.chunk.js.map",
-    "runtime~main.js": "/React/static/js/runtime~main.d53f88d2.js",
-    "runtime~main.js.map": "/React/static/js/runtime~main.d53f88d2.js.map",
-    "static/js/2.36bfa19e.chunk.js": "/React/static/js/2.36bfa19e.chunk.js",
-    "static/js/2.36bfa19e.chunk.js.map": "/React/static/js/2.36bfa19e.chunk.js.map",
+    "main.js": "/React/static/js/main.3cc9890b.chunk.js",
+    "main.js.map": "/React/static/js/main.3cc9890b.chunk.js.map",
+    "runtime-main.js": "/React/static/js/runtime-main.9c33a3ab.js",
+    "runtime-main.js.map": "/React/static/js/runtime-main.9c33a3ab.js.map",
+    "static/js/2.32db7fd1.chunk.js": "/React/static/js/2.32db7fd1.chunk.js",
+    "static/js/2.32db7fd1.chunk.js.map": "/React/static/js/2.32db7fd1.chunk.js.map",
     "index.html": "/React/index.html",
-    "precache-manifest.40bbdbb835f9cf1c585d25afec29bdfe.js": "/React/precache-manifest.40bbdbb835f9cf1c585d25afec29bdfe.js",
+    "precache-manifest.3c143faa710dc745d97d3947712cbf6e.js": "/React/precache-manifest.3c143faa710dc745d97d3947712cbf6e.js",
     "service-worker.js": "/React/service-worker.js",
     "static/css/main.b2150480.chunk.css.map": "/React/static/css/main.b2150480.chunk.css.map",
     "static/media/C++-white.png": "/React/static/media/C++-white.d9f03fbb.png",
@@ -19,10 +19,17 @@
     "static/media/Python-white.png": "/React/static/media/Python-white.ad148cbb.png",
     "static/media/ReactJS-white.png": "/React/static/media/ReactJS-white.8b02a882.png",
     "static/media/Ruby on Rails-white.png": "/React/static/media/Ruby on Rails-white.2b9e76a5.png",
+    "static/media/Vue-white.png": "/React/static/media/Vue-white.58bdcdc1.png",
     "static/media/linkedin-white.png": "/React/static/media/linkedin-white.516a67d1.png",
     "static/media/php-white.png": "/React/static/media/php-white.43e56f44.png",
     "static/media/seta2.svg": "/React/static/media/seta2.27bb0c8f.svg",
     "static/media/telegram-white.png": "/React/static/media/telegram-white.426d7c1e.png",
     "static/media/whatsapp-white.png": "/React/static/media/whatsapp-white.cd445a07.png"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c33a3ab.js",
+    "static/js/2.32db7fd1.chunk.js",
+    "static/css/main.b2150480.chunk.css",
+    "static/js/main.3cc9890b.chunk.js"
+  ]
 }

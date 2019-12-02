@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "40e27e6365b5068d47616d02b1643f33",
+    "revision": "61d9a85ef1a97b577f0524525ac010ce",
     "url": "/React/index.html"
   },
   {
-    "revision": "83a008de5ab63fe17dc0",
+    "revision": "79b1ef7f0c6690f99ce6",
     "url": "/React/static/css/main.b2150480.chunk.css"
   },
   {
-    "revision": "72bab101a2c291f381f6",
-    "url": "/React/static/js/2.36bfa19e.chunk.js"
+    "revision": "6521466470b4e65d9676",
+    "url": "/React/static/js/2.32db7fd1.chunk.js"
   },
   {
-    "revision": "83a008de5ab63fe17dc0",
-    "url": "/React/static/js/main.727f36b5.chunk.js"
+    "revision": "79b1ef7f0c6690f99ce6",
+    "url": "/React/static/js/main.3cc9890b.chunk.js"
   },
   {
-    "revision": "283b01c4b2c734b504b3",
-    "url": "/React/static/js/runtime~main.d53f88d2.js"
+    "revision": "7e699e654075203ead0f",
+    "url": "/React/static/js/runtime-main.9c33a3ab.js"
   },
   {
     "revision": "d9f03fbbe1017ced49070baa9be29159",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2b9e76a5674df54c7c628bc8e76a1f92",
     "url": "/React/static/media/Ruby on Rails-white.2b9e76a5.png"
+  },
+  {
+    "revision": "58bdcdc14b0335bf3181e04794961393",
+    "url": "/React/static/media/Vue-white.58bdcdc1.png"
   },
   {
     "revision": "516a67d197cc06d03e32996f5ef98a8c",
